@@ -1,0 +1,1 @@
+const CACHE_NAME="shakepear-cache-v1",urlsToCache=["./","./index.html","./css/main.fc901a7f.css","./js/main.adc0380b.js"];self.addEventListener("install",(e=>{e.waitUntil(caches.open(CACHE_NAME).then((e=>e.addAll(urlsToCache))))})),self.addEventListener("fetch",(e=>{e.respondWith(caches.match(e.request).then((s=>s||fetch(e.request))))}));
