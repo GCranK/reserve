@@ -1,6 +1,6 @@
 {
-    "name": "Shake&Pear Booking",
-    "short_name": "Booking",
+    "name": "Shake&Pear бронирование",
+    "short_name": "Shake&Pear Booking",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#f5fffa",
@@ -8,14 +8,14 @@
     "description": "Форма бронирования для Shake&Pear",
     "icons": [
       {
-        "src": "./assets/image/logo.webp",
+        "src": "./assets/image/logo.png",
         "sizes": "192x192",
-        "type": "image/png/webp"
+        "type": "image/png"
       },
       {
-        "src": "./assets/image/logo.webp",
+        "src": "./assets/image/logo.png",
         "sizes": "512x512",
-        "type": "image/png/webp"
+        "type": "image/png"
       }
     ]
   }
